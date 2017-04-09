@@ -1,0 +1,74 @@
+td.info {
+font-size:large;
+text-align:right;
+width:2em;
+}
+
+input.info {
+width:23em;
+font-size:large;
+}
+
+td.track {
+text-align:right;
+width:2em;
+}
+
+td.title {
+width:50px;
+}
+
+td.rec {
+width:5px;
+}
+
+td.noair {
+width:5px;
+}
+
+
+input.review {
+float: right;
+font-size:large;
+}
+
+div.error {
+	background-color: rgb(128,0,0);
+	border: 3px solid rgb(255,0,0);
+	margin: 10px;
+	padding: 10px;
+}
+
+div.confirm {
+	background-color: rgb(0,128,0);
+	border: 3px solid rgb(0,255,0);
+	margin: 10px;
+	padding: 10px;
+}
+
+.moverot td{
+	width: 200px;
+	font-size: .75em;
+}
+.moverot .rotui {
+	text-align: center;
+}
+
+.moverot:hover {
+	background: #654C43;
+	color: white;
+}
+.moverot a {
+	text-decoration: underline;
+	cursor: pointer;
+	
+}
+
+/** for move rotation **/
+
+#tabs-jqui ul li {
+	font-size: .75em;
+}
+
+
+

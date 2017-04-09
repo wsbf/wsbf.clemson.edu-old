@@ -1,0 +1,25 @@
+body {
+    background: none;
+    background-color: #3d3e40;
+    display: inline;
+}
+
+
+table {
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 98%;
+}
+
+form {
+    display: inline;
+}
+
+.show1 {
+    background-color: #ffffff;
+}
+
+.show2 {
+    background-color: green;
+}

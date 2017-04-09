@@ -1,0 +1,60 @@
+body {
+    background: none;
+    background-color: #3d3e40;
+    display: inline;
+}
+
+
+table {
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 98%;
+}
+
+form {
+    display: inline;
+}
+
+.show1 {
+    background-color: #58595f;
+}
+
+.show2 {
+    background-color: #39436d;
+}
+
+.show3 {
+    background-color: #1b5e3f;
+}
+.show4 {
+	background-color: #A64B00;
+}
+
+.change {
+	color: #adadad; 
+	display: inline;
+	text-decoration: underline;
+}
+
+.change:hover {
+	cursor: pointer;
+}
+
+.chartB{
+    background: #666666;
+}
+
+.chartB a {
+    color: #000;
+}
+
+pre {
+    font-size: 120%;
+}
+
+div#email {
+border: dashed thin white;
+padding: 5px;
+margin: 5px;
+}

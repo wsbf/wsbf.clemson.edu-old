@@ -1,0 +1,67 @@
+	body { 
+		font-size: 75%;
+	}
+	label {
+		margin: 5px;
+		font-style: oblique;
+		font-weight: bold;
+	}
+	label, input { 
+		display:block; 
+	}
+	/**
+	input.text { 
+		margin-bottom:12px; 
+		width:95%; 
+		padding: .4em; 
+	}**/
+	fieldset { padding:0; border:0; margin-top:25px; }
+	h1 { 
+		font-size: 2.0em; 
+		margin: .6em 0; 
+	}
+/** this is the big container! **/
+	div #users-contain {  
+		margin: 20px auto 20px auto;
+		width: 90%; /*350px*/
+		
+	}
+	div #users-contain table { 
+		margin: 1em 0; 
+		border-collapse: collapse; 
+		width: 100%; 
+	}
+	div #users-contain table td, 
+	div #users-contain table th { 
+		border: 1px solid #eee; 
+		padding: .6em 10px; 
+		text-align: left; 
+	}
+	.ui-button { 
+		outline: 0; margin:0; 
+		padding: .4em 1em .5em; 
+		text-decoration: none;  !important; 
+		cursor:pointer; 
+		position: relative; 
+		text-align: center; }
+	.ui-dialog .ui-state-highlight, .ui-dialog .ui-state-error 
+	{ padding: .3em;  }
+	
+	#playlist_div {
+		height: 1000px; /** 65% **/
+		overflow: scroll;
+		
+	}
+	
+	
+#change-dj { font-size: 125%; }
+.gray {
+	opacity:0.2;
+	filter:alpha(opacity=20);
+}
+th.small, td.small { width: 50px; }
+th.std, td.std { width: 200px; }
+#tbp input.std { width: 140px; }
+.noair { background-color: #F00; }
+.recc { background-color: #0F0; }
+

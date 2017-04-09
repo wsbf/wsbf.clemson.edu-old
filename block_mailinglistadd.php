@@ -1,0 +1,1 @@
+<h2>Join our mailing list!</h2>Enter your email<form name='list' action='mailing-list-submit' method='post'><input type='email' name='email' />&nbsp;&nbsp;<input type='submit' name='submit' value='Join!' /></form><br />

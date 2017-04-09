@@ -1,0 +1,428 @@
+/*
+	Theme Name: Rounded Grey Blog
+	Theme URI: http://hermmm.com
+	Description: GreyBlog 2 column, http://www.free-css-templates.com/demo/GreyBlog/ Design: David Herreman
+	Version: 1.0
+	Author: hermmm
+	Author URI: http://hermmm.com
+*/
+
+img, div {
+	behavior: url(iepngfix.htc);
+}
+
+body { 
+	margin:5px 0; 
+	padding:0; 
+	font: 74% Arial, Sans-Serif; 
+	color:#FFF;  
+	background-color:#eee;
+	line-height: 1.4em; 
+	background : #7D8085 url(images/widget.jpg) repeat-y;
+	background-position: top right;
+}
+
+img {
+	border: none;
+}
+
+.header {
+}
+
+/*
+WSBF Mini-Sidebar
+
+Images are in /i/
+*/
+.widget {
+	position: fixed;
+	right: 5px;
+	line-height: .5em;
+	top: 35%;
+}
+
+.alert {
+   font-weight: bold;
+   color: #e51a1a;
+}
+
+.toph { background: #3D3E42 url(images/top.jpg) no-repeat center; height: 24px; margin:0; padding:0; }
+
+.content { 
+	color: #ededed; 
+	margin: 0 auto; 
+	padding: 0; 
+	width: 800px; 
+	background: #3D3E42 url(images/bg.jpg) repeat-y center;
+}
+
+.title {
+	position: relative; /* container positioning */
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 650px;
+	min-height: 30px;
+/*
+	background: url(images/wsbflady.png) right no-repeat;
+*/
+	height: 28px;
+	color: #F29900;
+	font: 100% "Avant Garde", "Century Gothic";
+	font-size:350%; 
+	padding: 20px 0 0 10px;
+}
+
+.headergraph {
+	position: relative; /* container positioning */
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 750px;
+	min-height: 30px;
+	padding: 20px 0 0 10px;
+}
+
+td {
+border: none;
+
+}
+
+
+.currentsong {
+	position: absolute; /* container positioning */
+	text-align: center;
+	top: 77px;
+	left: 225px;
+	width: 525px;
+/*
+	background: url(images/wsbflady.png) right no-repeat;
+	color: #F29900;
+*/
+	font: 100% "Avant Garde", "Century Gothic";
+	font-size:140%; 
+
+}
+
+.currentsong a {
+	color: #ededed; 
+}
+
+.right {  
+	background: #FFF;
+	clear: both; 
+	font-size: 95%; 
+	float:right; 
+	width: 170px; 
+	margin: 0 15px 0 0 !important;
+	margin: 0 8px 0 0;
+	padding: 0px 1em 0 0px; 
+}
+
+.right a { 
+	color: #7D8085;
+}
+
+.nav { 
+	text-transform: uppercase; 
+	clear: both; 
+	text-align: left; 
+	color: #7D8085; 
+	padding: 5px 0 0 0; 
+}
+
+.nav li { 
+	font-weight: bold; 
+	margin: 0 0 8px 0; 
+	padding: 0 0 0 5px; 
+	border-bottom: 1px solid #F29900; 
+}
+
+.nav li a { 
+	color: #7D8085; 
+}
+
+.nav li a:hover { 
+	color: #F29900; 
+	text-decoration: none; 
+}
+
+.theme {
+	position:absolute; 
+	overflow:hidden; 
+	left:1px; 
+	top:1px; 
+	width:0px; 
+	height:0px; 
+	z-index:0
+}
+
+.boxad { 
+	background: #45464B; 
+	color: #BBB; 
+	border: 1px solid #555; 
+	padding: 5px; 
+}
+
+p { 
+	margin: 0 0 5px 0; 	
+	padding: 0; 
+	color: #cbcbcb; 
+	background: inherit;
+}
+
+hr {
+	border: 0; 
+	height: 1px; 
+	color: #eee; 
+	background-color: #eee; 
+}
+
+a { 
+	color: #adadad; 
+	background: inherit;  
+	text-decoration:none; 
+}
+
+a:hover { 	
+	background: inherit;
+	text-decoration: underline; 
+}
+
+h1 { 
+	padding:0; 
+	margin:0; 
+	color: #FFF; 
+	background: inherit;
+	font: bold 1.8em Arial, Sans-Serif; 
+	letter-spacing: -1px; 
+}
+
+h1 a {
+	color: #FFF; 
+	background: inherit;
+}
+
+h2 {
+	font: 100% "Avant Garde", "Century Gothic";
+	background-color: inherit; 	
+	color:#F29900; 
+	font-size:140%; 
+	font-weight:bold; 
+	margin: 10px 0 10px 0; 
+	padding:0; 
+}
+
+h2 a { 
+	color: #F29955; 
+}
+
+h2 a:hover { 	
+	color: #F29955; 
+	text-decoration: none;
+}
+
+ul { 
+	margin: 5px 0 20px 15px; 
+	padding : 0; 
+	list-style : none; 
+}
+
+li { 
+	list-style-type: square;	
+/*	color: #F29900;	
+*/
+	margin: 0 0 0px 0;	
+	padding: 0 0 0 0px; 
+}
+
+li a { 
+	color: #7D8085; 
+}
+
+li a:hover { 
+	color: #F29900;  
+}
+
+.center { 
+	float:left; 
+	width: 550px;
+	font-size: 95%; 
+	margin: 0px 0 5px 30px !important;
+	margin: 0px 0 5px 20px; 
+	padding: 0; 
+	background: #3D3E42; 
+	color: #FFF;
+}
+
+.center a { color: #F29900;}
+.center a:hover { color: #FFF; }
+
+
+.footer { 
+	clear:both;
+	width: auto;
+	height: 37px;
+	color:#888;  
+	font-size:90%;
+	background: #3D3E42 url(images/bot.jpg) no-repeat center;
+	text-align:center; 
+}
+
+
+.footer_text {
+	text-align: left;
+ 	margin: 0; padding: 0;
+	color: #aaa;
+}
+
+.footer_text a { color: #777; }
+
+
+fieldset {
+	border: 1px solid #eee;
+}
+
+textarea.text { 
+	height: 150px; 
+	width: 90%; 
+	border: 1px solid #ccc; 
+	background: #fff; 
+	color: #000;
+}
+
+textarea.text:hover { 
+	border: 1px solid #eee; 
+	background: #FFFFF4; 
+	color: #000;
+}
+
+input.field { 
+	border: 1px solid #ccc; 
+	background-color: #3C3C3C; 
+/*	width: 100px;  */
+	color: #000;
+}
+
+input.field:hover { 
+	border: 1px solid #eee; 
+	background: #ccc; 
+	color: #000;
+}
+
+input.text { 
+	margin: 0; 
+	width: 140px; 
+	border: 1px solid #F29900; 
+	background: #FFF;
+	color: #3a3a3a; 
+}
+
+input.text:hover { 
+	border: 1px solid #F26600; 
+}
+
+input.searchbutton { 
+	margin: 0; 
+	font-size: 100%; 
+	font-family: Arial, Sans-serif; 
+	border: none; 
+	background: #FFFFFF; 
+	color: #808080;
+	padding: 1px; 
+	font-weight: bold; 
+}
+
+input.contentbutton { 
+	margin: 0; 
+	font-size: 100%; 
+	font-family: Arial, Sans-serif; 
+	border: none; 
+	background: #3d3e40; 
+	color: #fff; 
+	padding: 1px; 
+	font-weight: bold; 
+}
+
+input.rentalbutton { 
+	margin: 0; 
+	font-size: 100%; 
+	font-family: Arial, Sans-serif; 
+	border: dotted #7D8085;
+	background: #7D8085; 
+	color: #fff; 
+	padding: 1px; 
+	font-weight: bold;
+	height: 40px;
+	width: 150px;
+}
+
+div#submit {
+	background: #7D8085;
+	width: 155px;
+}
+
+.date { 
+	color: #ccc; 
+	background: #3D3E42;
+	text-align: right; 
+	margin: 4px 0 5px 0; 
+	padding: 0.4em 0 0 0; 
+	border-top: 1px solid #555;
+}
+
+.date a { color: #ccc; }
+
+
+.time { 
+	color: #192D50; 
+	float: left;
+	text-align: left; 
+	padding: 5px 0 0 15px; 
+}
+
+input.button { 
+	background: #FFFFF4; 
+	color: #808080;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments { 
+	padding: 10px 10px 8px 10px; 
+	margin: 0 0 7px 0; 
+	background: #3f3f3f; 
+	color: #000;
+}
+
+.commentsbox { 
+	padding: 8px 0 10px 10px; 
+	margin: 0 0 10px 0; 
+	background: #f4f4f4; 
+	color: #000;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #fff;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}
